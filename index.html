@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/script/bootstrap.min.js"></script>
+    <script src="assets/script/jquery-3.4.1.min.js"></script>
+
+    <title>Droid</title>
+</head>
+
+<body>
+    <header id=".header" class="header">
+        <div class="container">
+            <div class="row" id="logo">
+                <div class="col-lg-3">
+                    <a href="#"><img src="assets/img/logo.png" alt="logo" width="100px"></a>
+                </div>
+                <div class="col-lg-9" ml-auto>
+                    <nav class="item-menu">
+                        <ul class="menu d-flex justify-content-center">
+                            <li class="menu__item">
+                                <a href="#advantages">О нас</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#price">Цены</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#contacts">Контакты</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#comment">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main-title">
+                        <h2>Контакты: </h2>
+                        <h3>Тел.: 8(3822)94-06-06</h3>
+                        <h3>Почта: service@2droida.ru</h3>
+                        <h2>График работы: </h2>
+                        <h3>Ежедневно, 10:00 — 20:00</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="advantages" id="advantages">
+        <div class="text-header">
+            <h1>Наши преимущества</h1>
+        </div>
+        <div class="container">
+            <div class="center">
+                <div class="container-card">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/N1.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Минимальные сроки ремонта</h4>
+                            <p class="card-text">Благодаря большому опыту инженеров и наличию запасных частей на складе
+                                мы выполним ремонт быстро, качественно и недорого. До 80% заказов специалисты выполняют
+                                в день обращения.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/N2.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Бесплатная диагностика</h4>
+                            <p class="card-text">Диагностика в течении 5 минут. Инженеры на месте определят неполадки,
+                                стоимость ремонта и сколько времени это займет.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-card">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/N3.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Ответственность за результат</h4>
+                            <p class="card-text">Используем только качественные запасные части и строго соблюдаем
+                                технологию
+                                проведения ремонта. Предоставляем гарантию на выполненные работы и замененные
+                                комплектующие.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/N4.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Информирование</h4>
+                            <p class="card-text">Мы предоставляем нашим клиентам бесплатное sms-информирование о
+                                завершении
+                                ремонта. Специалисты нашего call-центра всегда готовы ответить на все Ваши вопросы.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="forms" id="forms">
+        <div class="container">
+            <h1>Обратная связь</h1>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputName">Имя</label>
+                    <input type="name" class="form-control" id="exampleInputName" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputSurname">Фамилия</label>
+                    <input type="surname" class="form-control" id="exampleInputSurname" placeholder="Введите фамилию">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputNumber">Телефон</label>
+                    <input type="text" class="form-control" id="exampleInputNumner"
+                        placeholder="Введите номер телефона">
+                </div>
+                <div class="form-group">
+                    <button href="#forms">Позвонить мне</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="examples">
+        <div class="container">
+            <div class="flex-container">
+                <div class="container-center" id="center-item">
+                    <div class="item">
+                        <div class="card" style="width: 16rem;">
+                            <img class="card-img-top" src="assets/img/Примеры неисправностей/1.png"
+                                alt="Card image cap">
+                            <div class="card-body" id="card__1">
+                                <h5 class="card-title">Замена дисплейного модуля</h5>
+                                <p class="card-text">Разбит дисплей, не работает сенсор, не показывает экран</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">1000р.</a>
+                            </div>
+                            <a href="#forms"><button>Позвонить</button></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card" style="width: 16rem;">
+                            <img class="card-img-top" src="assets/img/Примеры неисправностей/2.png"
+                                alt="Card image cap">
+                            <div class="card-body" id="card__1">
+                                <h5 class="card-title">Замена аккумуляторая</h5>
+                                <p class="card-text">Не держит заряд, выключается на холоде или вздулся аккумулятор. А
+                                    так же, если попала влага или был сильный удар.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">1500р.</a>
+                            </div>
+                            <a href="#forms"><button>Позвонить</button></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card" style="width: 16rem;">
+                            <img class="card-img-top" src="assets/img/Примеры неисправностей/3.png"
+                                alt="Card image cap">
+                            <div class="card-body" id="card__1">
+                                <h5 class="card-title">Обновление программного обеспечения</h5>
+                                <p class="card-text">Ошибки приложений Android, не работает Google Play, не открывается
+                                    галерея, Не видит сеть, нет русского языка.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">300р.</a>
+                            </div>
+                            <a href="#forms"><button>Позвонить</button></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card" style="width: 16rem;">
+                            <img class="card-img-top" src="assets/img/Примеры неисправностей/4.png"
+                                alt="Card image cap">
+                            <div class="card-body" id="card__1">
+                                <h5 class="card-title">Чистка от коррозии после попадания жидкостиe</h5>
+                                <p class="card-text">Залит телефон, внутри влага, утопили.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">1000р.</a>
+                            </div>
+                            <a href="#forms"><button>Позвонить</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price" id="price">
+        <div class="container">
+            <div class="text">
+                <h1>Цены</h1>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col">Базовая цена</th>
+                        <th scope="col">Средняя сложность</th>
+                        <th scope="col">Сложный ремонт</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td class="item">Пересборка</td>
+                        <td>200</td>
+                        <td>350</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td class="item">Замена сенсорного стекла</td>
+                        <td>600</td>
+                        <td>1000</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td class="item">Замена дисплейного модуля в сборе с Тачскрином</td>
+                        <td>1000</td>
+                        <td>1200</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td class="item">Замена корпуса / средней части</td>
+                        <td>300</td>
+                        <td>500</td>
+                        <td>800</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td class="item">Замена кнопки Home</td>
+                        <td>400</td>
+                        <td>600</td>
+                        <td>800</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td class="item">Замена кнопок Включения, Громкости</td>
+                        <td>200</td>
+                        <td>400</td>
+                        <td>600</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td class="item">Замена аккумуляторной батареи</td>
+                        <td>300</td>
+                        <td>500</td>
+                        <td>800</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td class="item">Замена динамика</td>
+                        <td>400</td>
+                        <td>600</td>
+                        <td>800</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9</th>
+                        <td class="item">Замена основной / фронтальной камеры</td>
+                        <td>500</td>
+                        <td>600</td>
+                        <td>700</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10</th>
+                        <td class="item">Замена шлейфа Дисплея / Сканера отпечатка</td>
+                        <td>5000</td>
+                        <td>800</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11</th>
+                        <td class="item">Замена разъёма гарнитуры (3.5 mini Jack)</td>
+                        <td>800</td>
+                        <td>1000</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12</th>
+                        <td class="item">Замена разъёма SIM / карты памяти</td>
+                        <td>1000</td>
+                        <td>1500</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">13</th>
+                        <td class="item">Ремонт / Замена разъёма зарядки / микрофона</td>
+                        <td>600</td>
+                        <td>800</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">14</th>
+                        <td class="item">Восстановление контактной группы</td>
+                        <td>800</td>
+                        <td>1500</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">15</th>
+                        <td class="item">Замена контроллера зарядки / питания</td>
+                        <td>1500</td>
+                        <td>2000</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">16</th>
+                        <td class="item">Ремонт системной платы на компонентном уровне</td>
+                        <td>1500</td>
+                        <td>2500</td>
+                        <td>4000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">17</th>
+                        <td class="item">Чистка от коррозий после попадания жидкости</td>
+                        <td>1000</td>
+                        <td>1500</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">18</th>
+                        <td class="item">Обновление Програмного обеспечения (Android)</td>
+                        <td>300</td>
+                        <td>500</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">19</th>
+                        <td class="item">Обновление Програмного обеспечения (Android) не типовое</td>
+                        <td>300</td>
+                        <td>500</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20</th>
+                        <td class="item">Восстановление IMEI / SN / MAC Wi-Fi / MAC Bluetooth</td>
+                        <td>500</td>
+                        <td>1000</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21</th>
+                        <td class="item">Отвязка от Google, Mi-Аккаунта, Flyme-аккаунта, Huawei-аккаунта</td>
+                        <td>1000</td>
+                        <td>1500</td>
+                        <td>2000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div>
+            <div class="text">
+                <h1>Контакты</h1>
+            </div>
+            <div class="container">
+                <div class="info">
+                    <div>
+                        <h3>Адрес: ул. Ленина, 13</h3>
+                        <h3>Тел.: 8(3822)94-06-06</h3>
+                        <h3>Режим работы: Ежедневно,</h3>
+                        <h3>10:00 — 20:00</h3>
+                        <h3>Email: service@2droida.ru</h3>
+                        <h3>Ссылки на социальные сети:</h3>
+                        <h3><a href="#"><img src="assets/img/inst.png" alt="inst">https://instagram.com/droid</a>
+                        </h3>
+                        <h3><a href="#"><img src="assets/img/fb.png" alt="facebook">
+                                https://facebook.com/droid</a></h3>
+                        <h3><a href="#"><img src="assets/img/wp.png" alt="wp">https://whatsapp://droid</a></h3>
+                    </div>
+                </div>
+                <div class="maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.812210106527!2d40.92671136669805!3d57.77059041353411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ad4fe3321d8925%3A0x4f3673022a940178!2z0YPQuy4g0JvQtdC90LjQvdCwLCAxMywg0JrQvtGB0YLRgNC-0LzQsCwg0JrQvtGB0YLRgNC-0LzRgdC60LDRjyDQvtCx0LsuLCAxNTYwMDA!5e0!3m2!1sru!2sru!4v1618755317329!5m2!1sru!2sru"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="comment" id="comment">
+        <div class="container">
+            <div class="text">
+                <h1>Отзывы</h1>
+            </div>
+            <div class="row">
+                <div class="info-contain">
+
+                    <div id="testimonial-slider" class="owl-carousel">
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="assets/img/face/4.jpg" alt="">
+                            </div>
+                            <h3 class="testimonial-title">Георгий</h3>
+                            <small class="post">Замена АКБ Sony Xperia Z2</small>
+                            <p class="description">
+                                24 сентября 2019 г обратился для замены АКБ в своем телефоне.НН Ленина 127. Мастер
+                                Сазанов А.Е. все адекватно обьяснил,показал и рассказал как будет проходить ремонт
+                                телефона.Назвал стоимость за батарею и замену АКБ. Назвал сроки.Все сделано качественно
+                                и в срок. Приятно с Вами работать. Спасибо.
+                            </p>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="assets/img/face/1.png" alt="">
+                            </div>
+                            <h3 class="testimonial-title">Екатерина</h3>
+                            <small class="post">iPhone 6s</small>
+                            <p class="description">
+                                Очень быстрый и качественный сервис за приемлемую плату.Телефон починили за несколько
+                                часов,все отлично работает.
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="assets/img/face/2.png" alt="">
+                            </div>
+                            <h3 class="testimonial-title">Ирина</h3>
+                            <small class="post">Ремонт телефона после падения в воду</small>
+                            <p class="description">
+                                Большое спасибо Андрею Сазанову и Алексею Овчинникову за то, что взялись за ремонт
+                                телефона после воды. Телефон работает, проблем нет.
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="assets/img/face/3.png" alt="">
+                            </div>
+                            <h3 class="testimonial-title">Андрей</h3>
+                            <small class="post">Самый лучший сервис</small>
+                            <p class="description">
+                                Я обращался в 4 сервиса, чтобы починили мои беспроводные наушники (X3T) после замыкания.
+                                В одном сервисе сказали мне, что починка будет стоить дороже новых наушников, другие
+                                сказали, что их чинить нет смысла. А в сервисе "Мастер GSM" всё просто и без накладок.
+                                Подошли к вопросу оригинально и починили. Всё работает! Припаяли проводок и отправили
+                                домой. За такую простоту даже денег не взяли. Большое Спасибо!!!
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="assets/img/face/5.jpg" alt="">
+                            </div>
+                            <h3 class="testimonial-title">Руслан</h3>
+                            <small class="post">Ремонт iPhone SE</small>
+                            <p class="description">
+                                Добрый день! Хочу выразить огромную благодарность сервисному центру за ремонт телефона.
+                                Приняли аппарат быстро и без проблем хотя во время приемки проблемы не подтвердились.
+                                Получил отчет о процессе ремонта. В итоге в первый же рабочий день приступили к ремонту.
+                                На третий день ремонта сообщили, что можно приезжать и забирать телефон. Очень быстро и
+                                ни каких проблем. Спасибо. Буду советовать всем знакомым.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider">
+        <div class="container">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-xs-12">
+
+                        <div id="cbp-fwslider" class="cbp-fwslider">
+                            <ul>
+                                <li><a href="#froms"><img src="assets/img/R3.png" alt="demo 01" /></a>
+                                </li>
+                                <li><a href="#forms"><img src="assets/img/R2.png" alt="demo 02" /></a>
+                                </li>
+                                <li><a href="#forms"><img src="assets/img/R1.png" alt="demo 03" /></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="button">
+        <div class="container">
+            <a href="#forms"><button>Сделать заказ</button></a>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container-fluid pb-0 mb-0 justify-content-center text-light ">
+            <footer>
+                <div class="row my- justify-content-center py-5">
+                    <div class="col-10">
+                        <div class="row">
+                            <div class="col-xl-12 col-md-4 col-sm-4 col-12 text-center">
+                                <h3 class="text-muted mb-md-0 mb-5 bold-text" id="header">Droid</h3>
+                            </div>
+                            <div class="col-xl-12">
+                            </div>
+                            <div class="col-xl-8" id="info">
+                                <p class="text-muted mb-md-0 mb-5 bold-text">Сервисный центр DROID выполняет срочный,
+                                    качественный и недорогой ремонт телефонов. Самые распространённые виды ремонта -это
+                                    замена дисплея, антикоррозийная чистка при попадании влаги, замена аккумулятора и
+                                    прошивка телефонов.</p>
+                                <p class="text-muted mb-md-0 mb-5 bold-text">Мы используем только качественные запасные
+                                    части и строго соблюдаем технологию проведения ремонта. Мы предоставляем гарантию на
+                                    выполненные работы и замененные комплектующие.</p>
+                            </div>
+                            <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                                <h6 class="mb-3 mb-lg-4 bold-text "><b>МЕНЮ</b></h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">О нас</a></li>
+                                    <li><a href="#">Купить</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                    <li><a href="#">Вакансии</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                                <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>АДРЕС</b></h6>
+                                <p class="mb-1">634057, г. Новосибирск, ул. 79 Гвардейской дивизии, 7-179,</p>
+                                <p>ул. 79 Гвардейской дивизии, 7-179</p>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div
+                                class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                                <p class="social text-muted mb-0 pb-0 bold-text"> <a href="#"><span class="mx-2"><i
+                                                class="fa fa-facebook" aria-hidden="true"></i></a></span> <a
+                                        href="#"><span class="mx-2"><i class="fa fa-linkedin-square"
+                                                aria-hidden="true"></i></span></a> <a href="#"><span class="mx-2"><i
+                                                class="fa fa-twitter" aria-hidden="true"></i></span> </a> <a
+                                        href="#"><span class="mx-2"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></span> </a></p>
+                                <small class="rights">ООО «С групп»</small>
+                            </div>
+                            <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+                                <h6 class="mt-55 mt-2 text-muted bold-text"><b>ИНН</b></h6><small>
+                                    7017417869</small>
+                            </div>
+                            <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
+                                <h6 class="text-muted bold-text"><b>КПП</b></h6><small>
+                                    762701001</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <script src="assets/script/main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://bootstraptema.ru/snippets/slider/2016/cbpFWSlider/cbpFWSlider.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://bootstraptema.ru/snippets/slider/2016/cbpFWSlider/cbpFWSlider.min.js"></script>
+</body>
+
+</html>
